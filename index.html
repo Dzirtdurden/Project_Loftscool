@@ -5,23 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Video-production</title>
+  
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
       <a href="" class="logo">
-        <img src="" alt="" class="logo__pic">
+        <img src="img/logo.png" alt="" class="logo__pic">
       </a>
       <nav class="menu">
         <ul class="menu__list">
-          <li class="menu__title">
-            <a href="">Главная</a>
+          <li class="menu__item">
+            <a class="menu__link" href="">Главная</a>
           </li>
-          <li class="menu__title">
-            <a href="">Услуги</a>
+          <li class="menu__item">
+            <a class="menu__link" href="">Услуги</a>
           </li>
-          <li class="menu__title">
-            <a href="">Отзывы</a>            
+          <li class="menu__item">
+            <a class="menu__link" href="">Отзывы</a>            
           </li>
         </ul>
       </nav>
@@ -39,7 +41,7 @@
     <div class="page-content">
       <main class="main-content">
         <div class="route">
-          <img src="" alt="" class="route__img-elem">
+          <img src="img/hero.png" alt="" class="route__img-elem">
           <div class="route__description">
             <h1 class="route__description-offer">снимем для вас креативное видео</h1>
             <p class="route__description-intro">Креативный видеопродакшн полного цикла</p>
@@ -86,31 +88,34 @@
         </ul>
         <div class="news">
           <h2 class="news__title">Новости и акции</h2>
-          <div class="news__stocks">
-            <a class="news__stocks-card">
-              <img class="news__stocks-card-img" src="" alt="">
-              <p class="news__stocks-card-date">Декабрь 2019</p>
-              <h3 class="news__stocks-card-title">Снимем ваш клип на 50% дешевле</h3>
-              <p class="news__stocks-card-intro">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</p>
-            </a>
-            <a class="news__stocks-card">
-              <img class="news__stocks-card-img" src="" alt="">
-              <p class="news__stocks-card-date">Декабрь 2019</p>
-              <h3 class="news__stocks-card-title">Акция для молодоженов 30%</h3>
-              <p class="news__stocks-card-intro">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
-            </a>
-            
-          </div>
+          <ul class="news__stocks">
+            <li class="news__stocks-item">
+              <a class="news__stocks-link">
+                <img class="news__stocks-img" src="" alt="">
+                <time class="news__stocks-date">Декабрь 2019</time>
+                <h3 class="news__stocks-title">Снимем ваш клип на 50% дешевле</h3>
+                <p class="news__stocks-intro">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</p>
+              </a>
+            </li>
+            <li class="news__stocks-item">
+              <a class="news__stocks-link">
+                <img class="news__stocks-img" src="" alt="">
+                <time class="news__stocks-date">Декабрь 2019</time>
+                <h3 class="news__stocks-title">Акция для молодоженов 30%</h3>
+                <p class="news__stocks-intro">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+              </a>
+            </li>
+          </ul>
           <div class="paginator">
             <div class="paginator__display">Страница 1 из 7</div>
             <ul class="paginator__list">
-              <li class="paginator__item"><a href="">1</a></li>
-              <li class="paginator__item"><a href="">2</a></li>
-              <li class="paginator__item"><a href="">3</a></li>
-              <li class="paginator__item"><a href="">4</a></li>
-              <li class="paginator__item"><a href="">5</a></li>
-              <li class="paginator__item"><a href="">6</a></li>
-              <li class="paginator__item"><a href="">7</a></li>
+              <li class="paginator__item"><a class="paginator__link" href="">1</a></li>
+              <li class="paginator__item"><a class="paginator__link" href="">2</a></li>
+              <li class="paginator__item"><a class="paginator__link" href="">3</a></li>
+              <li class="paginator__item"><a class="paginator__link" href="">4</a></li>
+              <li class="paginator__item"><a class="paginator__link" href="">5</a></li>
+              <li class="paginator__item"><a class="paginator__link" href="">6</a></li>
+              <li class="paginator__item"><a class="paginator__link" href="">7</a></li>
             </ul>
           </div>
         </div>  
@@ -141,18 +146,32 @@
           </li>
         </ul>
       </nav>
-      <div class="networks">
-        <a href="" class="networks-item"><img src="" alt="tg"></a>
-        <a href="" class="networks-item"><img src="" alt="vk"></a>
-        <a href="" class="networks-item"><img src="" alt="fb"></a>
-        <a href="" class="networks-item"><img src="" alt="inst"></a>
-      </div>
-      <address class="contacts__footer">
-        <div class="contacts__footer-social">Бесплатный звонок по России</div>
-        <a href="tel:+78007003030" class="contacts__footer-phone">8 800 700 30 30</a> 
+      <ul class="socials">
+        <li class="socials__item">
+          <a href="" class="socials__link">
+            <img class="socials__link-pic" src="" alt="tg">
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="" class="socials__link">
+            <img class="socials__link-pic" src="" alt="vk">
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="" class="socials__link">
+            <img class="socials__link-pic" src="" alt="fb">
+          </a>
+        </li>
+        <li class="socials__item">
+          <a href="" class="socials__link">
+            <img class="socials__link-pic" src="" alt="inst">
+          </a>
+        </li>
+      </ul>
+      <address class="contacts">
+        <div class="contacts__workhours">Бесплатный звонок по России</div>
+        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a> 
       </address>
-  
-      
     </footer>
   </div>
 </body>
