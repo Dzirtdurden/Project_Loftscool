@@ -5,52 +5,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Video-production</title>
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="wrapper">
-    <header class="header">
-      <a href="" class="logo">
-        <img src="img/logo.png" alt="" class="logo__pic">
-      </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a class="menu__link" href="">Главная</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="">Услуги</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="">Отзывы</a>            
-          </li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-        <div class="contacts__workhours">График работы</div>
-        <!--Думаю этот блок делается или через hover 
-        <div class="contacts__time">
-          <p class="contact__time_text-top">пн-вс: 09:00 - 20:00</p>     
-          <p class="contact__time_text-bottom">Обед: 14:00-14:30</p>     
-        </div>
-       -->
-      </address>
-    </header>
-    <div class="page-content">
-      <main class="main-content">
+  <div class="wrapper main-page-wrapper">
+    <section class="hero">
+      <div class="container">
+        <header class="header">
+          <a href="" class="logo">
+            <img src="img/logo.png" alt="logo" class="logo__pic">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">Отзывы</a>            
+              </li>
+            </ul>
+          </nav>
+          <address class="contacts">
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            <div class="contacts__workhours">График работы</div>
+            <!--Думаю этот блок делается или через hover 
+            <div class="contacts__time">
+              <p class="contact__time_text-top">пн-вс: 09:00 - 20:00</p>     
+              <p class="contact__time_text-bottom">Обед: 14:00-14:30</p>     
+            </div>
+          -->
+          </address>
+        </header>
         <div class="route">
-          <img src="img/hero.png" alt="" class="route__img-elem">
           <div class="route__description">
             <h1 class="route__description-offer">снимем для вас креативное видео</h1>
             <p class="route__description-intro">Креативный видеопродакшн полного цикла</p>
             <button class="btn">Подробнее</button>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
         <ul class="services">
           <li class="service">
-            <img src="" alt="" class="service__img">
+            <img src="img/tv.png" alt="" class="service__img">
             <h3 class="service__title">Реклама</h3>
             <div class="service__opportunities">
               <div class="service__opportunities-offer">От <b>5</b> человек
@@ -59,10 +63,10 @@
                 в среднем</div>
             </div>
             <div class="service__intro">Креатив и производство рекламы, документального и корпоративного контента.</div>
-            <button class="btn">Подробнее</button>
+            <button class="btn btn--color--orange">Подробнее</button>
           </li>
           <li class="service">
-            <img src="" alt="" class="service__img">
+            <img src="img/clapper.png" alt="" class="service__img">
             <h3 class="service__title">Видео-клип</h3>
             <div class="service__opportunities">
               <div class="service__opportunities-offer">От <b>7</b> человек
@@ -71,10 +75,10 @@
                 в среднем</div>
             </div>
             <div class="service__intro">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</div>
-            <button class="btn">Подробнее</button>
+            <button class="btn btn--color--orange">Подробнее</button>
           </li>
           <li class="service">
-            <img src="" alt="" class="service__img">
+            <img src="img/film.png" alt="" class="service__img">
             <h3 class="service__title">Свадьба</h3>
             <div class="service__opportunities">
               <div class="service__opportunities-offer">От <b>2</b> человек
@@ -83,33 +87,41 @@
                 в среднем</div>
             </div>
             <div class="service__intro">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</div>
-            <button class="btn">Подробнее</button>
+            <button class="btn btn--color--orange">Подробнее</button>
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
         <div class="news">
           <h2 class="news__title">Новости и акции</h2>
           <ul class="news__stocks">
             <li class="news__stocks-item">
               <a class="news__stocks-link">
-                <img class="news__stocks-img" src="" alt="">
-                <time class="news__stocks-date">Декабрь 2019</time>
-                <h3 class="news__stocks-title">Снимем ваш клип на 50% дешевле</h3>
-                <p class="news__stocks-intro">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</p>
+                <img class="news__stocks-img" src="img/camera.png" alt="">
+                <div class="news__stocks-block">
+                  <time class="news__stocks-date">Декабрь 2019</time>
+                  <h3 class="news__stocks-title">Снимем ваш клип на 50% дешевле</h3>
+                  <p class="news__stocks-intro">В честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты.</p>
+                </div>
               </a>
             </li>
             <li class="news__stocks-item">
               <a class="news__stocks-link">
-                <img class="news__stocks-img" src="" alt="">
-                <time class="news__stocks-date">Декабрь 2019</time>
-                <h3 class="news__stocks-title">Акция для молодоженов 30%</h3>
-                <p class="news__stocks-intro">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+                <img class="news__stocks-img" src="img/wedding.png" alt="">
+                  <div class="news__stocks-block">
+                    <time class="news__stocks-date">Декабрь 2019</time>
+                    <h3 class="news__stocks-title">Акция для молодоженов 30%</h3>
+                    <p class="news__stocks-intro">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
+                  </div>
               </a>
             </li>
           </ul>
           <div class="paginator">
             <div class="paginator__display">Страница 1 из 7</div>
             <ul class="paginator__list">
-              <li class="paginator__item"><a class="paginator__link" href="">1</a></li>
+              <li class="paginator__item paginator__item--active"><a class="paginator__link" href="">1</a></li>
               <li class="paginator__item"><a class="paginator__link" href="">2</a></li>
               <li class="paginator__item"><a class="paginator__link" href="">3</a></li>
               <li class="paginator__item"><a class="paginator__link" href="">4</a></li>
@@ -119,60 +131,71 @@
             </ul>
           </div>
         </div>  
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
         <div class="about">
-          <img src="" alt="" class="about__img-elem">
-          <div class="about__block">
-            <h3 class="about__block-title">О нас</h3>
-            <p class="about__block-introo">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
+          <div class="about__desc">
+            <h3 class="about__desc-title">О нас</h3>
+            <div class="about__desc-intro">
+              <p>
+                Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
+              </p>
+            </div>  
             <button class="btn">Подробнее</button>
           </div>
         </div>
-      </main>
-    </div>
-    <footer class="footer">
-      <a href="" class="logo">
-        <img src="" alt="" class="logo__pic">
-      </a>
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a class="menu__link" href="">Главная</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="">Услуги</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="">Отзывы</a>            
-          </li>
-        </ul>
-      </nav>
-      <ul class="socials">
-        <li class="socials__item">
-          <a href="" class="socials__link">
-            <img class="socials__link-pic" src="" alt="tg">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a href="" class="socials__link">
-            <img class="socials__link-pic" src="" alt="vk">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a href="" class="socials__link">
-            <img class="socials__link-pic" src="" alt="fb">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a href="" class="socials__link">
-            <img class="socials__link-pic" src="" alt="inst">
-          </a>
-        </li>
-      </ul>
-      <address class="contacts">
-        <div class="contacts__workhours">Бесплатный звонок по России</div>
-        <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a> 
-      </address>
-    </footer>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="container footer-container--content">
+        <div class="footer">
+        <a href="" class="logo">
+          <img src="img/logo.png" alt="logo" class="logo__pic">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="#">Главная</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Услуги</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Отзывы</a>            
+            </li>
+          </ul>
+        </nav>
+        <ul class="socials">
+                <li class="socials__item socials__item--icon--telegram">
+                  <a href="" class="socials__link">
+                  </a>
+                </li>
+                <li class="socials__item socials__item--icon--vkontakte">
+                  <a href="" class="socials__link"> 
+                  </a>
+                </li>
+                <li class="socials__item socials__item--icon--facebook">
+                  <a href="" class="socials__link"> 
+                  </a>
+                </li>
+                <li class="socials__item socials__item--icon--instagram">
+                  <a href="" class="socials__link">  
+                  </a>
+                </li>
+              </ul>
+        <address class="contacts">
+          <div class="contacts__desc">Бесплатный звонок по России</div> 
+          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+          
+          
+        </address>
+      </div>
+      </div> 
+    </footer>         
+
+
   </div>
 </body>
 </html>

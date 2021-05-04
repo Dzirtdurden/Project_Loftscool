@@ -1,0 +1,381 @@
+body {
+  font-family: 'Open-sans', sans-serif;
+  color: #FFFFFF;
+  line-height: 1.42em ;
+  font-size: 16px;
+  background: #17191C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color: inherit;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: normal;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  margin-top: 0;
+}
+.main-page-wrapper {
+  background: url("../img/hero.png") center top 5px no-repeat, url("../img/bottom-pic.png") center bottom 305px no-repeat;;
+}
+.container {
+  margin: 0 auto;
+  width: 1142px;
+}
+.header {
+  height: 100px;
+  position: relative;
+  margin-bottom: 135px;
+}
+.logo {
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: 0;
+}
+.menu {
+  position: absolute;
+  top: 45px;
+  left: 440px;
+}
+.contacts {
+  position: absolute;
+  top: 40px;
+  right: 2px;
+}
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 53px;
+}
+
+.menu__link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.menu__link:hover {
+  color: #FF3D00;
+}
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+.contacts__desc {
+  font-size: 11px;
+  color:  #9A9A9A;
+  margin-bottom: 6px;
+}
+.contacts__phone {
+  font-size: 26px;
+  text-decoration: none;
+}
+.contacts__workhours {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #FF3D00;
+  margin-top: -7px;
+  letter-spacing: 0.4px;
+}
+.route {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 232px;
+}
+.route__description {
+  text-align: center;
+}
+.route__description-offer {
+  
+  text-transform: uppercase;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 14px;
+  letter-spacing: 0.03em;
+}
+.route__description-intro{
+  font-size: 18px;
+  margin-bottom: 41px;
+  letter-spacing: 0.04em;
+}
+.btn {
+  background: #FF5500;
+  padding: 20px 52px;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.btn:hover {
+  background: #FF3D00;
+  cursor: pointer;
+}
+.section {
+  
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 195px;
+}
+.service {
+  border: 5px solid #fff;
+  min-height: 476px;
+  background: #fff;
+  max-width: 362px;
+  color: #000;
+  border-radius: 5px;
+}
+.service:hover {
+  border: 5px solid #CCCCCC;
+  
+}
+.service__img {
+  margin-top: 35px;
+  margin-left: 24px;
+  height: 76px;
+  width: 76px;
+}
+.service__title {
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 35px;
+  margin-left: 17px;
+  margin-bottom: 26px;
+}
+.service__opportunities {
+ display: flex;
+ justify-content: space-between;
+  margin-left: 18px;
+  
+}
+.service__opportunities-offer {
+  display: inline-block;
+  width: 119px;
+  margin-right: 31px;
+  margin-bottom: 22px;
+}
+.service__intro {
+  margin-left: 18px;
+  width: 306px;
+  margin-right: 35px;
+  margin-bottom: 26px;
+}
+.btn--color--orange{
+  border: 2px solid #FF5500;
+  background-color: #fff;
+  color: #FF5500;
+  margin-left: 17px;
+  
+}
+.btn--color--orange:hover{
+  background-color: #FF5500;
+  color: #fff;
+}
+.news {
+  margin-bottom: 145px;
+}
+.news__title {
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 60px;
+}
+.news__stocks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+.news__stocks-item {
+  width: 557px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.news__stocks-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.news__stocks-block {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 21px 31px;
+  min-height: 140px;
+}
+.news__stocks-date {
+  font-size: 14px;  
+  
+}
+.news__stocks-title{
+  margin-top: 16px;
+  font-size: 24px;
+  
+}
+.news__stocks-intro {
+  margin-top: 10px;
+}
+
+.paginator{
+  text-align: center;
+}
+.paginator__display, .paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+.paginator__display {
+  margin-right: 36px;
+}
+.paginator__item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.paginator__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 32px;
+}
+.paginator__item--active .paginator__link {
+  background: #FF5500;
+
+}
+.paginator__link:hover {
+  background: #FF5500;
+}
+
+.about {
+  margin-bottom: 50px;
+}
+
+.about:before, .about__desc{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about:before {
+  content: "" ;
+  width: 490px;
+  height: 505px;
+  background: url("../img/cameraman.png") center center / cover no-repeat;
+}
+.about__desc {
+  background: #fff;
+  padding: 70px 81px;
+  width: 785px;
+  margin-left: -140px;
+  margin-top: 98px;
+  border-radius: 5px;
+  
+}
+.about__desc-title {
+  font-weight: 800;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 40px;
+  line-height: 1.42em ;
+}
+.about__desc-intro {
+  color: #000;
+  margin-bottom: 44px;
+  min-height: 128px;
+  line-height: 1.62em ;
+}
+.about__desc-intro p {
+  margin-bottom: 20px;
+}
+.about__desc-intro p:last-child {
+  margin-bottom: 0;
+}
+
+
+.footer-container--content {
+  border-top: 1px solid rgb(75, 75, 75);
+}
+.footer {
+  height: 136px;
+  position: relative;
+  margin-top: 14px;
+}
+.footer .menu {
+  left: 330px;
+}
+.socials__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+.socials__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.socials__item:last-child {
+  margin-right: 0;
+}
+.socials {
+  position: absolute;
+  top: 39px;
+  right: 255px;
+}
+
+.socials__item--icon--telegram .socials__link {
+  background-image: url(../img/t.png);
+}
+.socials__item--icon--telegram .socials__link:hover {
+  background-image: url(../img/tg-hover.png);
+}
+
+
+.socials__item--icon--vkontakte .socials__link {
+  background-image: url(../img/vk.png);
+}
+.socials__item--icon--vkontakte .socials__link:hover {
+  background-image: url(../img/vk-hover.png);
+}
+
+
+.socials__item--icon--facebook .socials__link {
+  background-image: url(../img/facebook\ 1.png);
+}
+.socials__item--icon--facebook .socials__link:hover {
+  background-image: url(../img/fb-hover.png);
+}
+
+
+.socials__item--icon--instagram .socials__link {
+  background-image: url(../img/in.png);
+}
+.socials__item--icon--instagram .socials__link:hover {
+  background-image: url(../img/inst-hover.png);
+}
+.footer .contacts {
+  top: 29px;
+}
