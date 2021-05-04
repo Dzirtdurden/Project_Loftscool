@@ -28,7 +28,7 @@ p {
   margin-top: 0;
 }
 .main-page-wrapper {
-  background: url("../img/hero.png") center top 5px no-repeat, url("../img/bottom-pic.png") center bottom 305px no-repeat;;
+  background: url("../img/hero.png") center top 5px no-repeat, url("../img/bottom-pic.png") center bottom 3px no-repeat;;
 }
 .container {
   margin: 0 auto;
