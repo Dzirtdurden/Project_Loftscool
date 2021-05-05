@@ -6,6 +6,7 @@ body {
   background: #17191C;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
 }
 a {
   color: inherit;
@@ -35,7 +36,7 @@ p {
   width: 1142px;
 }
 .header {
-  height: 100px;
+  min-height: 100px;
   position: relative;
   margin-bottom: 135px;
 }
@@ -59,6 +60,9 @@ p {
   display: inline-block;
   vertical-align: middle;
   margin-right: 53px;
+}
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__link {
@@ -112,6 +116,7 @@ p {
   letter-spacing: 0.04em;
 }
 .btn {
+  border: 2px solid transparent;
   background: #FF5500;
   padding: 20px 52px;
   border-radius: 35px;
@@ -142,6 +147,8 @@ p {
   max-width: 362px;
   color: #000;
   border-radius: 5px;
+  padding-left: 21px;
+  padding-right: 31px;
 }
 .service:hover {
   border: 5px solid #CCCCCC;
@@ -149,7 +156,7 @@ p {
 }
 .service__img {
   margin-top: 35px;
-  margin-left: 24px;
+  
   height: 76px;
   width: 76px;
 }
@@ -157,23 +164,23 @@ p {
   font-weight: bold;
   font-size: 32px;
   margin-top: 35px;
-  margin-left: 17px;
+  
   margin-bottom: 26px;
 }
 .service__opportunities {
  display: flex;
  justify-content: space-between;
-  margin-left: 18px;
+ margin-bottom: 22px;
   
 }
 .service__opportunities-offer {
   display: inline-block;
   width: 119px;
-  margin-right: 31px;
-  margin-bottom: 22px;
+  
+  
 }
 .service__intro {
-  margin-left: 18px;
+  
   width: 306px;
   margin-right: 35px;
   margin-bottom: 26px;
@@ -182,7 +189,7 @@ p {
   border: 2px solid #FF5500;
   background-color: #fff;
   color: #FF5500;
-  margin-left: 17px;
+  
   
 }
 .btn--color--orange:hover{
@@ -231,6 +238,7 @@ p {
 .news__stocks-title{
   margin-top: 16px;
   font-size: 24px;
+  font-weight: bold;
   
 }
 .news__stocks-intro {
@@ -318,7 +326,7 @@ p {
   border-top: 1px solid rgb(75, 75, 75);
 }
 .footer {
-  height: 136px;
+  min-height: 136px;
   position: relative;
   margin-top: 14px;
 }
