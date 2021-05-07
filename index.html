@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <title>Video-production</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -14,32 +15,30 @@
     <section class="hero">
       <div class="container">
         <header class="header">
-          <a href="" class="logo">
+          <div class="header__col">
+            <a href="" class="logo">
             <img src="img/logo.png" alt="logo" class="logo__pic">
-          </a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a class="menu__link" href="#">Главная</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">Услуги</a>
-              </li>
-              <li class="menu__item">
-                <a class="menu__link" href="#">Отзывы</a>            
-              </li>
-            </ul>
-          </nav>
-          <address class="contacts">
-            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__workhours">График работы</div>
-            <!--Думаю этот блок делается или через hover 
-            <div class="contacts__time">
-              <p class="contact__time_text-top">пн-вс: 09:00 - 20:00</p>     
-              <p class="contact__time_text-bottom">Обед: 14:00-14:30</p>     
-            </div>
-          -->
-          </address>
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Услуги</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Отзывы</a>            
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__col header__col-right">
+            <address class="contacts">
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__workhours">График работы</div>
+            </address>
+          </div>
         </header>
         <div class="route">
           <div class="route__description">
@@ -52,42 +51,48 @@
     </section>
     <section class="section">
       <div class="container">
-        <ul class="services">
-          <li class="service">
-            <img src="img/tv.png" alt="" class="service__img">
-            <h3 class="service__title">Реклама</h3>
-            <div class="service__opportunities">
-              <div class="service__opportunities-offer">От <b>5</b> человек
-                на проект</div>
-              <div class="service__opportunities-offer"><b>28</b> дней работы
-                в среднем</div>
+        <ul class="offers">
+          <li class="offer">
+            <img src="img/tv.png" alt="" class="offer__img">
+            <div class="offer__content">
+              <h3 class="offer__title">Реклама</h3>
+              <div class="offer__opportunities">
+                <div class="offer__opportunities-offer">От <b>5</b> человек
+                  на проект</div>
+                <div class="offer__opportunities-offer"><b>28</b> дней работы
+                  в среднем</div>
+              </div>
+              <div class="offer__intro">Креатив и производство рекламы, документального и корпоративного контента.</div>
+              <button class="btn btn--color--orange">Подробнее</button>
             </div>
-            <div class="service__intro">Креатив и производство рекламы, документального и корпоративного контента.</div>
-            <button class="btn btn--color--orange">Подробнее</button>
           </li>
-          <li class="service">
-            <img src="img/clapper.png" alt="" class="service__img">
-            <h3 class="service__title">Видео-клип</h3>
-            <div class="service__opportunities">
-              <div class="service__opportunities-offer">От <b>7</b> человек
-                на проект</div>
-              <div class="service__opportunities-offer"><b>21</b> дней работы
-                в среднем</div>
+          <li class="offer">
+            <img src="img/clapper.png" alt="" class="offer__img">
+            <div class="offer__content">
+              <h3 class="offer__title">Видео-клип</h3>
+              <div class="offer__opportunities">
+                <div class="offer__opportunities-offer">От <b>7</b> человек
+                  на проект</div>
+                <div class="offer__opportunities-offer"><b>21</b> дней работы
+                  в среднем</div>
+              </div>
+              <div class="offer__intro">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</div>
+              <button class="btn btn--color--orange">Подробнее</button>
             </div>
-            <div class="service__intro">Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</div>
-            <button class="btn btn--color--orange">Подробнее</button>
           </li>
-          <li class="service">
-            <img src="img/film.png" alt="" class="service__img">
-            <h3 class="service__title">Свадьба</h3>
-            <div class="service__opportunities">
-              <div class="service__opportunities-offer">От <b>2</b> человек
-                на проект</div>
-              <div class="service__opportunities-offer"><b>30</b> дней работы
-                в среднем</div>
+          <li class="offer">
+            <img src="img/film.png" alt="" class="offer__img">
+            <div class="offer__content">
+              <h3 class="offer__title">Свадьба</h3>
+              <div class="offer__opportunities">
+                <div class="offer__opportunities-offer">От <b>2</b> человек
+                  на проект</div>
+                <div class="offer__opportunities-offer"><b>30</b> дней работы
+                  в среднем</div>
+              </div>
+              <div class="offer__intro">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</div>
+              <button class="btn btn--color--orange">Подробнее</button>
             </div>
-            <div class="service__intro">Получите живое видео своего самого счастливого дня, которое Вы будете пересматривать снова и снова.</div>
-            <button class="btn btn--color--orange">Подробнее</button>
           </li>
         </ul>
       </div>
@@ -150,7 +155,8 @@
     </section>
     <footer class="footer-container">
       <div class="container footer-container--content">
-        <div class="footer">
+        <div class="footer footer-container--section">
+          <div class="footer__col">
         <a href="" class="logo">
           <img src="img/logo.png" alt="logo" class="logo__pic">
         </a>
@@ -167,6 +173,8 @@
             </li>
           </ul>
         </nav>
+      </div>
+      <div class="footer__col footer__col-right">
         <ul class="socials">
                 <li class="socials__item socials__item--icon--telegram">
                   <a href="" class="socials__link">
@@ -188,14 +196,12 @@
         <address class="contacts">
           <div class="contacts__desc">Бесплатный звонок по России</div> 
           <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          
-          
+
         </address>
+      </div>
       </div>
       </div> 
     </footer>         
-
-
   </div>
 </body>
 </html>
