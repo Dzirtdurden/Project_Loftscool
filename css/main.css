@@ -476,7 +476,7 @@ body. html {
   display: flex;
   align-items: center;
 }
-.breadcrumbs__item--active ..breadcrumbs__link {
+.breadcrumbs__item--active .breadcrumbs__link {
   font-weight: normal;
 }
 .breadcrumbs__item:after {
