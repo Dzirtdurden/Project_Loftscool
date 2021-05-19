@@ -69,7 +69,7 @@ body. html {
 
 .logo {
   display: block;
-  margin-right: 241px; 
+ 
 }
 
 .header__col{
@@ -292,6 +292,7 @@ body. html {
 .paginator__item {
   text-align: center;
 }
+
 .paginator__link {
   display: block;
   width: 32px;
@@ -303,11 +304,15 @@ body. html {
 }
 .paginator__item--active .paginator__link {
   background: #FF5500;
+  color: #fff;
 
 }
 .paginator__link:hover {
   background: #FF5500;
+  color: #fff;
 }
+
+
 
 .about {
   display: flex;
@@ -492,12 +497,12 @@ body. html {
   color:#000;
 }
 .services {
-  margin-top: 45px;
-  margin-bottom: 65px;
+  margin-top: 94px;
+  margin-bottom:  16px;
 }
 .service {
   display: flex;
-  padding-top: 49px;
+  padding-bottom: 49px;
   text-decoration: none;
 }
 .service__img {
@@ -525,8 +530,8 @@ body. html {
   color: #303030;
 }
 .service__content .btn{
-  max-width: 198px;
-  padding: 15px 52px;
+  
+  padding: 18px 52px;
 }
 .paginator__page-content {
   margin-bottom: 80px;
