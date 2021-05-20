@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  min-width: 1200px;
+}
+.container {
+  margin: 0 auto;
+  width: 1142px;
+}
+.page-content {
+  background: #fff;
+  color:#000;
+}
+.page-content-indent {
+  padding-bottom: 80px;
+}

@@ -1,0 +1,35 @@
+.btn {
+  border: 2px solid transparent;
+  background: #FF5500;
+  padding: 20px 52px;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.btn:hover {
+  background: #FF3D00;
+  cursor: pointer;
+}
+
+.btn--color--orange{
+  border: 2px solid #FF5500;
+  background-color: #fff;
+  color: #FF5500;
+  margin-right: auto;
+
+}
+
+.btn--color--orange:hover{
+  background-color: #FF5500;
+  color: #fff;
+}
+
+.btn__central {
+  text-decoration: none;
+  padding: 18px 60px;
+}

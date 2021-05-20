@@ -1,0 +1,7 @@
+@import url(offers.css);
+@import url(route.css);
+@import url(news.css);
+@import url(about.css);
+.main-page-wrapper {
+  background: url("../../../img/hero.png") center top 5px no-repeat, url("../img/bottom-pic.png") center bottom 3px no-repeat;;
+}
