@@ -33,3 +33,10 @@
   text-decoration: none;
   padding: 18px 60px;
 }
+.btn--color--grey {
+  background: #8E8E8E;
+  margin-right: 10px;
+}
+.btn--form{
+  padding: 20px 40px;
+}

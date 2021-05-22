@@ -1,0 +1,168 @@
+.rewiew {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 31px 34px;
+  background: #F4F5F5;
+  border-radius: 5px;
+}
+.rewiews {
+  column-count: 2;
+  column-gap: 27px;
+  padding: 94px 0 75px; (-15px)
+}
+.rewiew__item {
+  margin-bottom: 17px; 
+}
+.rewiew__userdata {
+  margin-left: 22px;
+}
+.rewiew__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+.page-rewiews--indent {
+  padding-bottom: 92px;
+}
+.rewiew__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #2E77A4;
+  margin-bottom: 5px;
+
+}
+.rewiew__user:after {
+  content: url("../../../img/vk-blue.png");
+  margin-left: 6px;
+}
+.rewiew__tags{
+  display: flex;
+  align-items: flex-start;
+}
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 8px 26px;
+  border-radius: 35px;
+  background: #E7E7E7;
+}
+.avatar {
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.tag--bg--orange {
+  background: #F2D4C9;
+}
+.rewiew__title {
+  font-size: 30px;
+  color: #202020;
+  font-weight: 700;
+  margin-bottom: 11px;
+  line-height: 1.4;
+}
+.rewiew__content-text {
+  color: #818181;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+.rewiew__date {
+  color: #1A1B1E;
+  font-weight: 700; 
+}
+.separator {
+  background: #373737 url("../../../img/party.png") right -130px bottom no-repeat ;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #373737;
+}
+.separator__content {
+  width: 50%;
+}
+.separator__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+}
+.separator__title span {
+ color: #FF5300;
+}
+.inner-section__title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.4;
+  color: #202020;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.form__row {
+  display: flex;
+  margin-bottom: 30px;
+}
+.form__row--last {
+  margin-bottom: 21px;
+}
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  padding: 19px 30px;
+  font-size: 18px;
+  color: #1A1B1E;
+}
+.form__input--textarea {
+  resize: none;
+  height: 235px;
+  padding: 32px 30px;
+}
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input:last-child {
+  margin-right: 0px;
+}
+.controls__elem {
+  cursor: pointer;
+}
+.controls__checkbox:checked ~ .controls__tag {
+  background: #F2D4C9;
+}
+.controls__checkbox {
+  display: none ;
+}
+.form__controls {
+  display: flex;
+  margin-bottom: 20px;
+}
+.form__controls--title {
+  width: 38%;
+  color: #1A1B1E;
+  font-size: 18px;
+  padding-top: 14px;
+}
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.controls__item {
+  margin-right: 18px;
+  margin-bottom: 10px;
+}
+.inner-section--bg--grey--form{
+  background: #F4F5F5;
+  padding: 78px 0 95px;
+}
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
