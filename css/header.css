@@ -52,6 +52,10 @@
   transition: .2s;
 }
 
+.menu__link--active {
+  color: #FF3D00;
+}
+
 .contacts__desc {
   font-size: 11px;
   color:  #9A9A9A;
@@ -83,20 +87,6 @@
 .dropdown__menu::before{
   content: "";
   display: block;
-  height: 30px;
-  top: -29px;
-  right: 0;
-  left: 0;
-  position: absolute;
-}
-
-.dropdown__list {  
-  background: #CDD1D2;
-  padding: 11px 14px;
-  border-radius: 5px; 
-}
-
-.triangle {
   border: 10px solid transparent;
   border-bottom-color: #CDD1D2;
   border-top-width: 0;
@@ -105,6 +95,13 @@
   border-right: 13px solid transparent;
   border-left: 13px solid transparent;
 }
+
+.dropdown__list {  
+  background: #CDD1D2;
+  padding: 11px 14px;
+  border-radius: 5px; 
+}
+
 
 .dropdown:hover .dropdown__menu{
   right: 0;

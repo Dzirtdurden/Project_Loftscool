@@ -8,7 +8,7 @@
 .rewiews {
   column-count: 2;
   column-gap: 27px;
-  padding: 94px 0 75px; (-15px)
+  padding: 100px 0 73px; 
 }
 .rewiew__item {
   margin-bottom: 17px; 
@@ -141,7 +141,7 @@
 }
 .form__controls {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .form__controls--title {
   width: 38%;
@@ -153,6 +153,8 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;
+  margin-right: -18px;
+  margin-bottom: -10px;
 }
 .controls__item {
   margin-right: 18px;
