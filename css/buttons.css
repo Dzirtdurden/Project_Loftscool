@@ -14,6 +14,7 @@
 .btn:hover {
   background: #FF3D00;
   cursor: pointer;
+  transition: .4s;
 }
 
 .btn--color--orange{
@@ -27,6 +28,7 @@
 .btn--color--orange:hover{
   background-color: #FF5500;
   color: #fff;
+  transition: .4s;
 }
 
 .btn__central {

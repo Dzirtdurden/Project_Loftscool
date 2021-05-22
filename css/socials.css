@@ -4,10 +4,10 @@
   width: 36px;
   height: 36px;
   background: center center no-repeat;
+  position: relative;
 }
 
 .socials__item {
-
   margin-right: 10px;
 }
 
@@ -21,35 +21,63 @@
   margin-right: 75px;
 }
 
-
-
-.socials__item--icon--telegram .socials__link {
-  background-image: url(../img/t.png);
-}
-.socials__item--icon--telegram .socials__link:hover {
-  background-image: url(../img/tg-hover.png);
+.socials__link:hover:before {
+  opacity: 1;
 }
 
-
-.socials__item--icon--vkontakte .socials__link {
-  background-image: url(../img/vk.png);
-}
-.socials__item--icon--vkontakte .socials__link:hover {
-  background-image: url(../img/vk-hover.png);
+.socials__link:hover:after {
+  opacity: 0;
 }
 
-
-.socials__item--icon--facebook .socials__link {
-  background-image: url(../img/facebook\ 1.png);
+.socials__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  
 }
-.socials__item--icon--facebook .socials__link:hover {
-  background-image: url(../img/fb-hover.png);
+
+.socials__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width: 36px;
+  height: 36px;
+  opacity: 0;
+ 
 }
 
-
-.socials__item--icon--instagram .socials__link {
-  background-image: url(../img/in.png);
+.socials__item--icon--telegram .socials__link::after{
+  background: url('../img/css_sprites.png') -122px -10px;
 }
-.socials__item--icon--instagram .socials__link:hover {
-  background-image: url(../img/inst-hover.png);
+.socials__item--icon--telegram .socials__link::before{
+  background: url('../img/css_sprites.png') -122px -66px;
+}
+
+.socials__item--icon--vkontakte .socials__link::after{
+  background: url('../img/css_sprites.png') -10px -122px;
+}
+.socials__item--icon--vkontakte .socials__link::before{
+  background: url('../img/css_sprites.png') -66px -122px;
+}
+
+.socials__item--icon--facebook .socials__link::after{
+  background: url('../img/css_sprites.png') -10px -10px;
+}
+.socials__item--icon--facebook .socials__link::before{
+  background: url('../img/css_sprites.png') -66px -10px;
+}
+
+.socials__item--icon--instagram .socials__link::after{
+  background: url('../img/css_sprites.png') -10px -66px;
+}
+.socials__item--icon--instagram .socials__link::before{
+  background: url('../img/css_sprites.png') -66px -66px;
 }
